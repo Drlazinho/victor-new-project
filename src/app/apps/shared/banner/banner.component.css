@@ -1,0 +1,41 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+}
+
+.lista-nav{
+   display: flex;
+   flex-direction: row;
+   gap: 1rem;
+}
+
+.topbar {
+  background-color: #4287f5;
+    margin-inline: .75rem;
+}
+
+.nav-item {
+  background-color: rgb(224, 253, 255);
+  border-radius: 50%;
+  padding-inline: 2rem;
+  transition: .2s ease;
+}
+
+.nav-item:hover {
+  background-color: rgb(184, 229, 255);
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+@media (max-width: 600px) {
+  nav {
+    font-size: .6rem;
+  }
+
+ nav img {
+  width: 100px;
+ }
+}

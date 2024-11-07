@@ -1,0 +1,19 @@
+.form-container {
+ position: relative;
+ padding-bottom: 3rem;
+ background-color: #4287f5;
+
+}
+
+.btn-to-top {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: rgb(195, 216, 247);
+  border-radius: 50%;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  bottom: 20px;
+  right: 20px;
+}

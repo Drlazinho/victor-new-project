@@ -1,0 +1,12 @@
+.img-details {
+  width: clamp(250px, 500px, 100%);
+  height: auto;
+  object-fit: cover;
+}
+
+.mini-spacer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

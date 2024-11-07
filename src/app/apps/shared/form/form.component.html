@@ -1,0 +1,31 @@
+<div class="form-container text-white p-4">
+  <h3 class="text-center">Entre em contato conosco</h3>
+  <form [formGroup]="formGroup" (ngSubmit)="onSubmit()" class="container">
+    <div class="row g-3">
+      <div class="col-md-6 col-12">
+        <label for="nome" class="form-label">Nome</label>
+        <input type="text" class="form-control" id="nome" formControlName="nome">
+      </div>
+      <div class="col-md-6
+   col-12">
+        <label for="empresa" class="form-label">Empresa</label>
+        <input type="text" class="form-control" id="empresa" formControlName="empresa">
+      </div>
+    </div>
+
+    <div class="mb-3">
+      <label for="cnpj" class="form-label">CNPJ</label>
+      <input type="number" class="form-control" id="cnpj" formControlName="cnpj" pattern="[0-9]*">
+    </div>
+    <div class="mb-3">
+      <label for="objetivosEServicos" class="form-label">Objetivos e Serviços</label>
+      <textarea class="form-control" id="objetivosEServicos" rows="3" formControlName="objetivosEServicos"></textarea>
+    </div>
+    <button type="submit" class="btn btn-success">Enviar</button>
+  </form>
+
+  <a class="btn-to-top" href="#top"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-up-short" viewBox="0 0 16 16">
+    <path fill-rule="evenodd" d="M8 12a.5.5 0 0 0 .5-.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 .5.5"/>
+  </svg>
+  </a>
+</div>

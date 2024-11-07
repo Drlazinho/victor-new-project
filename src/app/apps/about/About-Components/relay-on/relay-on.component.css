@@ -1,0 +1,15 @@
+.wrap-feature1-box {
+  display: flex;
+  flex-direction: column;
+}
+.card {
+  flex: 1;
+}
+
+.card-body {
+  transition: .2s ease;
+}
+
+.card-body:hover {
+  background-color: aliceblue;
+}
