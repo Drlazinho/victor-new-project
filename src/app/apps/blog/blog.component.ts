@@ -33,6 +33,10 @@ export class BlogComponent implements OnInit {
     this.router.navigate(['/post']);
   }
 
+  navigateToAbout() {
+    this.router.navigate(['/about']);
+  }
+
   viewDetail(id: number) {
     this.service.detailId = id;
 

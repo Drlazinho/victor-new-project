@@ -12,12 +12,11 @@
           Quer Conhecer as melhores micro-empresas do mercado e seus serviços?
         </h5>
 
-        <a
-          [routerLinkActive]="['active']"
+        <button
           routerLink="/about"
           class="btn btn-md m-t-30 btn-success-gradiant font-14 text-white bg-primary"
           target="blank"
-          >Inicie o Tour</a
+          (click)="navigateToAbout()"          >Inicie o Tour</button
         >
       </div>
       <!-- Column -->
